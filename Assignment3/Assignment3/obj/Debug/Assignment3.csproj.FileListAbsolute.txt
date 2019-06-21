@@ -1,0 +1,48 @@
+E:\agile\assignment3\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+E:\agile\assignment3\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+E:\agile\assignment3\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+E:\agile\assignment3\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
+C:\Users\wjq\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\wjq\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\wjq\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentFrom.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentFrom.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.ScoreBoard.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentSettings.resources

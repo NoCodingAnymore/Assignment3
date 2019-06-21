@@ -56,6 +56,12 @@
     <Compile Include="Display.Designer.cs">
       <DependentUpon>Display.cs</DependentUpon>
     </Compile>
+    <Compile Include="ScoreBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScoreBoard.Designer.cs">
+      <DependentUpon>ScoreBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Scoring.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <EmbeddedResource Include="Display.resx">
       <DependentUpon>Display.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScoreBoard.resx">
+      <DependentUpon>ScoreBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Scoring.resx">
       <DependentUpon>Scoring.cs</DependentUpon>

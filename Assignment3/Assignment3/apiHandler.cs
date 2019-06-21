@@ -8,21 +8,29 @@ using System.Threading.Tasks;
 
 using System.Runtime.Serialization.Json;
 using System.Runtime.Serialization;
+/*
+
+ * All the http request (get/post) are handled in this file. 
+ * DataContractJsonSerializer and Memory stream are used to serialize and deserializr json data obtained by http client from web api.
+ */
 
 namespace Assignment3
 {
     [DataContract]
-    class Tournament {
+    class Tournament
+    {
         [DataMember]
         public string id { get; set; }
         [DataMember]
         public string name { get; set; }
-        public Tournament(string name) {
+        public Tournament(string name)
+        {
             this.name = name;
         }
     }
     [DataContract]
-    class Team {
+    class Team
+    {
         [DataMember]
         public string id { get; set; }
         [DataMember]
@@ -38,7 +46,7 @@ namespace Assignment3
     class Player
     {
         [DataMember]
-        public string id { get; set; }
+        public string id { get; protected set; }
         [DataMember]
         public string name { get; set; }
         public Player(string name)
@@ -76,15 +84,16 @@ namespace Assignment3
 
     class ApiHandler
     {
-        public async static Task<string> addTournament(Tournament tournament) {
+        public async static Task<string> addTournament(Tournament tournament)
+        {
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=add&type=tournament&name=" + tournament.name);
-            
+
 
             MemoryStream stream = new MemoryStream();
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Tournament));
             serializer.WriteObject(stream, tournament);
-            
+
             HttpContent content = new StreamContent(stream);
 
             HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);
@@ -97,13 +106,14 @@ namespace Assignment3
             return result;
         }
 
-        public async static Task<string> addTeam(string tournamentID, Team team) {
+        public async static Task<string> addTeam(string tournamentID, Team team)
+        {
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=add&type=team&tournament=" + tournamentID + "&name=" + team.name);
             MemoryStream stream = new MemoryStream();
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Team));
             serializer.WriteObject(stream, team);
-            
+
             HttpContent content = new StreamContent(stream);
 
             HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);
@@ -123,7 +133,7 @@ namespace Assignment3
             MemoryStream stream = new MemoryStream();
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Player));
             serializer.WriteObject(stream, player);
-            
+
             HttpContent content = new StreamContent(stream);
 
             HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);
@@ -135,14 +145,14 @@ namespace Assignment3
             Console.WriteLine(result);
             return result;
         }
-        public async static Task<string> addTeamToMatch(Match match)
+        public async static Task<string> addTeamToMatch(string tournamentID, string teamID, Match match)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=add&type=matchresult&tournament=313&team=592&matchtype=" + match.type +"&matchnumber=" + match.number +"&score=87");
+            client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=add&type=matchresult&tournament=" + tournamentID +"&team="+ teamID + "&matchtype=" + match.type + "&matchnumber=" + match.number + "&score=0");
             MemoryStream stream = new MemoryStream();
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Match));
             serializer.WriteObject(stream, match);
-            
+
             HttpContent content = new StreamContent(stream);
 
             HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);
@@ -155,10 +165,10 @@ namespace Assignment3
             return result;
         }
 
-        public async static Task<string> updateScore(Score score)
+        public async static Task<string> updateScore(string tournamentID,  string teamID, string match, Score score)
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=add&type=matchresult&tournament=313&team=592&matchtype=qual&matchnumber=1&score=" + score.data);
+            client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=add&type=matchresult&tournament="+tournamentID +"&team=" + teamID + "&matchtype=qual&matchnumber=" + match + "&score=" + score.data);
             MemoryStream stream = new MemoryStream();
             DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Score));
             serializer.WriteObject(stream, score);
@@ -174,7 +184,8 @@ namespace Assignment3
             return result;
         }
 
-        public static T jsonTo<T>(String jStr) {
+        public static T jsonTo<T>(String jStr)
+        {
             MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(jStr));
             DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(T));
             T result = (T)ser.ReadObject(stream);
@@ -182,11 +193,12 @@ namespace Assignment3
             return result;
         }
 
-       
 
-        public async static Task<string> getTeams(string tournamentID) {
+
+        public async static Task<string> getTeams(string tournamentID)
+        {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=teams&tournament=" + tournamentID +"&format=json");
+            client.BaseAddress = new Uri("http://partiklezoo.com/aerialassist/index.php?action=teams&tournament=" + tournamentID + "&format=json");
             HttpResponseMessage response = await client.GetAsync(client.BaseAddress);
             string result = await response.Content.ReadAsStringAsync();
             result = result.Substring(10);

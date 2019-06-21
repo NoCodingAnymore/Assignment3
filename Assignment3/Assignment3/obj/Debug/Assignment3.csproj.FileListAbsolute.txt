@@ -20,16 +20,29 @@ C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.Genera
 C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
 C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.exe
 C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentFrom.resources
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.exe
-C:\Users\Administrator\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
-C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentSetting.resources
+C:\Users\wjq\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentFrom.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentFrom.resources
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\bin\Debug\Assignment3.exe.config
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\bin\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\bin\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.Display.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.Scoring.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.exe
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.pdb
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.ScoreBoard.resources
+C:\Users\kuheh\Desktop\New folder (2)\Assignment3\Assignment3\obj\Debug\Assignment3.TournamentSettings.resources

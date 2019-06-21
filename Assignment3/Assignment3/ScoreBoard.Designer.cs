@@ -42,11 +42,13 @@
             this.Member4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Member5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.matchLabel = new System.Windows.Forms.Label();
+            this.Schedule = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.board)).BeginInit();
             this.SuspendLayout();
             // 
             // board
             // 
+            this.board.AllowUserToAddRows = false;
             this.board.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.board.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Rank,
@@ -63,7 +65,7 @@
             this.Member5});
             this.board.Location = new System.Drawing.Point(0, 0);
             this.board.Name = "board";
-            this.board.Size = new System.Drawing.Size(744, 231);
+            this.board.Size = new System.Drawing.Size(744, 171);
             this.board.TabIndex = 0;
             this.board.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.board_RowsAdded);
             // 
@@ -135,17 +137,29 @@
             // matchLabel
             // 
             this.matchLabel.AutoSize = true;
-            this.matchLabel.Location = new System.Drawing.Point(241, 267);
+            this.matchLabel.Location = new System.Drawing.Point(318, 241);
             this.matchLabel.Name = "matchLabel";
             this.matchLabel.Size = new System.Drawing.Size(76, 13);
             this.matchLabel.TabIndex = 1;
             this.matchLabel.Text = "No MatchNow";
+            // 
+            // Schedule
+            // 
+            this.Schedule.AutoSize = true;
+            this.Schedule.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Schedule.ForeColor = System.Drawing.Color.Olive;
+            this.Schedule.Location = new System.Drawing.Point(294, 193);
+            this.Schedule.Name = "Schedule";
+            this.Schedule.Size = new System.Drawing.Size(127, 31);
+            this.Schedule.TabIndex = 2;
+            this.Schedule.Text = "Schedule";
             // 
             // ScoreBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 450);
+            this.Controls.Add(this.Schedule);
             this.Controls.Add(this.matchLabel);
             this.Controls.Add(this.board);
             this.Name = "ScoreBoard";
@@ -172,5 +186,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Member4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Member5;
         private System.Windows.Forms.Label matchLabel;
+        private System.Windows.Forms.Label Schedule;
     }
 }
